@@ -18,3 +18,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Web Request Action
+        uses: Satak/webrequest-action@v1.2.3
+        with:
+          url: https://api.chucknorris.io/jokes/random
+          method: GET
+          
+          
+      
+          
